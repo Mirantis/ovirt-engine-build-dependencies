@@ -24,7 +24,7 @@ LOCAL_MAVEN_REPO="$(pwd)/repository"
 [ -d rpmbuild/SOURCES ] || mkdir -p rpmbuild/SOURCES
 
 # Fetch required engine version
-git clone https://github.com/oVirt/ovirt-engine
+git clone https://github.com/Mirantis/ovirt-engine
 cd ovirt-engine
 
 # Mark current directory as safe for git to be able to execute git commands
